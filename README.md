@@ -17,8 +17,11 @@ Real-world evidence study analyzing 282 AFib patients comparing NOAC vs Warfarin
 
 **File Structure:**
 Base cohort creation/
+
 ├── analysis.sas - Main cohort pipeline (1,000+ EHR → n=282 w/ CHA2DS2-VASc, HAS-BLED)
+
 ├── Cohort Creation.log - Execution log
+
 └── Cohort HRU TRT OS.pdf - Full validation + TLF report
 
 TLF Generation/
