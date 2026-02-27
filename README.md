@@ -1,6 +1,6 @@
 # Treatment-Patterns-and-Safety-Outcomes-SAS-Analysis
-_
-**AFib RWE Analysis: Production TLF Pipeline (SAS Viya 9.4)**_
+
+_**AFib RWE Analysis: Production TLF Pipeline (SAS Viya 9.4)**_
 
 **Project Overview**:
 
