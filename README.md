@@ -25,11 +25,17 @@ Base cohort creation/
 └── Cohort HRU TRT OS.pdf - Full validation + TLF report
 
 TLF Generation/
+
 ├── CV_Change.sas - Macro TTEST → CV_Change.pdf
+
 ├── Demographic.sas - PROC MEANS/FREQ → Baseline.pdf  
+
 ├── Drug_Treatment_Pattern.sas - Rx intensity → Drug_Treatment_Pattern.pdf
+
 ├── HRU_Summary.sas - Encounter utilization → HRU_summary.pdf
+
 ├── OS_Summary.sas - PROC LIFETEST → OS_Summary.pdf
+
 └── Stroke_Bleed_Summary.sas - Chi-square binary → Strok_Bleed_Summary.pdf
 
 **Key Clinical Features Demonstrated:**
