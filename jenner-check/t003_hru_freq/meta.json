@@ -1,0 +1,7 @@
+{
+  "bundle": "t003_hru_freq",
+  "source_file": "analysis/HRU_Summary.sas",
+  "source_blob_sha": "e5908426be2a36551c1304f43a9098d7f713f250",
+  "source_commit": "1351d3e4caaae8caaa8de4269c50f99f42e20c7c",
+  "notes": "Author's PROC FREQ (encounter-type utilization by cohort) / PROC TRANSPOSE tabulation and PROC REPORT are unchanged, including the 'select ... into :N1 - :N4' macro-range. Substituted a 20-row synthetic code_hru (patient_id/encounter_type/cohortN) for the external code.hru libname and redirected ODS PDF to the working dir. The one PROC REPORT 'wrap' option (a line-wrapping display hint) was dropped so the table renders identically here."
+}

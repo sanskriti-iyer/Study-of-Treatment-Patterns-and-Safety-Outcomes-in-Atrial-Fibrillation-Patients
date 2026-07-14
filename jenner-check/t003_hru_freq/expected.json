@@ -1,0 +1,13 @@
+{
+  "_captured_at": "2026-07-14T05:18:41Z",
+  "_captured_run_id": "r_503ec03db77f40129247fbf1f1d0f4b8",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "PROC TRANSPOSE data=freq_3",
+    "Wrote freq_5 (4 rows, 4 columns).",
+    "PROC REPORT output 4 observations with 3 variables."
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

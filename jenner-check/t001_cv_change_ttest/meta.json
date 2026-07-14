@@ -1,0 +1,7 @@
+{
+  "bundle": "t001_cv_change_ttest",
+  "source_file": "analysis/CV_Change.sas",
+  "source_blob_sha": "9efbefdb2cddf1e2e37e4d92b5ae148da19fac8d",
+  "source_commit": "1351d3e4caaae8caaa8de4269c50f99f42e20c7c",
+  "notes": "Author's %stat_calculate macro (PROC TTEST on CV-parameter change by cohort) and the PROC REPORT table, unchanged. Substituted a 24-row synthetic code_vital_sign_analysis (loinc/cohort1n/chg) for the external code.vital_sign_analysis libname, and redirected ODS PDF to the working dir (RTF dropped). Runs across HR/SBP/DBP LOINC codes; all three PROC TTEST comparisons and the final 15-row report render."
+}
