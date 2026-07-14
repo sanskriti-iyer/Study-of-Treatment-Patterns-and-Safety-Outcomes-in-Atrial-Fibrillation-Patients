@@ -1,0 +1,74 @@
+    The LIFETEST Procedure    
+
+                             N
+--------------------  --------
+Total                       22
+Event                       10
+Censored                    12
+Median Survival Time   25.5500
+
+Stratum: cohort = Aspirin
+
+                 N
+--------  --------
+Total            7
+Event            3
+Censored         4
+
+               Product-Limit Survival Estimates                
+
+    Time  Survival  Std Error  Number at Risk  Number of Events
+--------  --------  ---------  --------------  ----------------
+  6.2000    0.8571     0.1323               7                 1
+ 11.0000    0.7143     0.1707               6                 1
+ 16.3000    0.5714     0.1870               5                 1
+
+Stratum: cohort = NOAC
+
+                 N
+--------  --------
+Total            8
+Event            3
+Censored         5
+
+               Product-Limit Survival Estimates                
+
+    Time  Survival  Std Error  Number at Risk  Number of Events
+--------  --------  ---------  --------------  ----------------
+  9.3000    0.8750     0.1169               8                 1
+ 12.5000    0.7500     0.1531               7                 1
+ 22.7000    0.6250     0.1712               6                 1
+
+  Stratum: cohort = Warfarin  
+
+                             N
+--------------------  --------
+Total                        7
+Event                        4
+Censored                     3
+Median Survival Time   20.4000
+
+               Product-Limit Survival Estimates                
+
+    Time  Survival  Std Error  Number at Risk  Number of Events
+--------  --------  ---------  --------------  ----------------
+  8.1000    0.8571     0.1323               7                 1
+ 14.9000    0.7143     0.1707               6                 1
+ 18.6000    0.5714     0.1870               5                 1
+ 20.4000    0.4286     0.1870               4                 1
+
+         Test of Equality over Strata          
+
+Test      Chi-Square        DF  Pr > Chi-Square
+--------  ----------  --------  ---------------
+log-rank      0.4697         2           0.7907
+
+                                                                                                      NOAC                                                                    Warfarin                                                                Aspirin                                                                 Total
+                                                                                                      (n=8)                                                                   (n=7)                                                                   (n=7)                                                                   (n=22)
+No. of Subjects:                                                                                                                                                                                                                                                                                                                                                                                    
+    No. of Subjects                                                                                   8                                                                       7                                                                       7                                                                       22                                                                    
+    No. of Subjects with an Event (%)                                                                     3 (13.64%)                                                              4 (18.18%)                                                              3 (13.64%)                                                             10 (45.45%)                                                        
+    No. of Subjects without an Event (%)                                                                  5 (22.73%)                                                              3 (13.64%)                                                              4 (18.18%)                                                             12 (54.55%)                                                        
+    Median                                                                                            .                                                                       .                                                                       .                                                                       31.07                                                                 
+    (95% CI)                                                                                          (.,.)                                                                   (.,.)                                                                   (.,.)                                                                   (28.80,32.94)                                                         
+    25th-75th percentile                                                                              .-.                                                                     .-.                                                                     .-.                                                                     27.65-33.40

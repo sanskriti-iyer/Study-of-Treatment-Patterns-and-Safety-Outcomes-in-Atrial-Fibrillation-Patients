@@ -1,0 +1,13 @@
+{
+  "_captured_at": "2026-07-14T05:18:41Z",
+  "_captured_run_id": "r_61e2adca1e9d45fba36f6235be21539b",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "PROC LIFETEST data=code_os",
+    "ODS OUTPUT: Quartiles written to 'qrts'.",
+    "PROC REPORT output 7 observations with 7 variables."
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}

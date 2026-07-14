@@ -1,0 +1,93 @@
+NOTE: Jenner v1.5.30 (build v1.5.30+unknown.20260714T020019Z.x86_64-unknown-linux-gnu)
+
+NOTE: Option OBS changed to 100.
+NOTE: DATA code_os
+
+NOTE: Processing inline DATALINES (22 lines)
+
+NOTE: Read 22 rows from DATALINES.
+NOTE: Wrote code_os (22 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC LIFETEST data=code_os
+
+NOTE: Using Python lifelines version 0.30.3
+NOTE: OUTSURV dataset 'os_surv' written to: /tmp/work/r_61e2adca1e9d45fba36f6235be21539b/work/e8332881-acef-4967-ac9f-ad816036bc85/os_surv.avro
+NOTE: ODS OUTPUT: Quartiles written to 'qrts'.
+NOTE: PROC LIFETEST completed.
+NOTE: PROC FREQ
+NOTE: Output dataset freq1 has 3 observations and 3 variables.
+NOTE: PROC FREQ statement used.
+NOTE: DATA _null_
+
+
+NOTE: Read 3 rows from freq1.
+NOTE: Wrote _null_ (3 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SQL 
+
+NOTE: Macro variable T_TOT = 22
+NOTE: PROC SQL statement used.
+NOTE: PROC FREQ
+NOTE: Output dataset freq_cnsr has 6 observations and 4 variables.
+NOTE: Output dataset tot_cnsr has 2 observations and 3 variables.
+NOTE: PROC FREQ statement used.
+NOTE: DATA _null_
+
+
+NOTE: Read 6 rows from freq_cnsr.
+NOTE: Wrote _null_ (6 rows, 4 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA _null_
+
+
+NOTE: Read 2 rows from tot_cnsr.
+NOTE: Wrote _null_ (2 rows, 3 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA block1
+
+
+NOTE: Wrote block1 (4 rows, 7 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA block2
+
+
+NOTE: Read 3 rows from qrts.
+NOTE: Wrote block2 (3 rows, 26 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: DATA final_report
+
+
+NOTE: Read 4 rows from block1.
+NOTE: Read 7 rows from block2.
+NOTE: Wrote final_report (7 rows, 26 columns).
+NOTE: DATA elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: PROC SORT data=final_report
+
+NOTE: Read 7 rows from final_report.
+NOTE: Wrote final_report (7 rows, 26 columns).
+NOTE: PROC SORT statement used.
+NOTE: PROC REPORT data=final_report
+
+NOTE: PROC REPORT output 7 observations with 7 variables.
+
+NOTE: Read 7 rows from final_report.
+NOTE: Wrote (console) (7 rows, 7 columns).
+NOTE: PROC REPORT elapsed:
+  wall  0.00 seconds
+  cpu   0.00 seconds
+NOTE: ODS PDF: rendering images at 150 DPI.
+NOTE: ODS PDF: wrote report to /tmp/work/r_61e2adca1e9d45fba36f6235be21539b/OS_Summary.pdf.

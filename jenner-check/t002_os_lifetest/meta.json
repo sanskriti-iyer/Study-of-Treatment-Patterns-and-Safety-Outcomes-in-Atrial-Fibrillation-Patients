@@ -1,0 +1,7 @@
+{
+  "bundle": "t002_os_lifetest",
+  "source_file": "analysis/OS_Summary.sas",
+  "source_blob_sha": "9950ad872108390c5eb3025a71fd312aed2b5f2a",
+  "source_commit": "1351d3e4caaae8caaa8de4269c50f99f42e20c7c",
+  "notes": "Author's PROC LIFETEST (Kaplan-Meier quartiles via ODS OUTPUT Quartiles), the CNSR event/censor tabulations, and the PROC REPORT are unchanged. Substituted a 22-row synthetic code_os (cohort/AVAL/CNSR) for the external code.os libname and redirected ODS PDF to the working dir. The survival estimates, strata log-rank test, and the 7-row summary report all render."
+}

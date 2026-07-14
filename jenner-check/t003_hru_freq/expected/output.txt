@@ -1,0 +1,9 @@
+                                                            TOTAL
+          Parameter                        Encounter Visits (N=20)
+          ----------------------------------------------------------------------------------------------------
+
+
+          Healthcare Visit: Encounter Type Emergency        4 (20.00%)                                        
+                                           Inpatient        5 (25.00%)                                        
+                                           Outpatient       8 (40.00%)                                        
+                                           Telehealth       3 (15.00%)

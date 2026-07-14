@@ -1,0 +1,13 @@
+{
+  "_captured_at": "2026-07-14T05:14:18Z",
+  "_captured_run_id": "r_d0d1348e38d94a5695227f70605bc2fd",
+  "status": "ok",
+  "exit_code": 0,
+  "log_contains": [
+    "PROC TTEST data=vs3",
+    "Wrote all_combined (15 rows, 5 columns).",
+    "PROC REPORT output 15 observations with 5 variables."
+  ],
+  "log_does_not_contain": ["ERROR:", "[JENNER-ERROR"],
+  "diagnostics": {"parse_warnings": [], "runtime_warnings": []}
+}
